@@ -10,8 +10,8 @@
 					<xpath>/Defs</xpath>
 					<value>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialANN_Brainwash</defName>
-							<thingDef>ANN_Brainwash</thingDef>
+							<defName>VCEF_SpecialCONN_Brainwash</defName>
+							<thingDef>CONN_Brainwash</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -28,8 +28,8 @@
 							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialANN_PassionGiver</defName>
-							<thingDef>ANN_PassionGiver</thingDef>
+							<defName>VCEF_SpecialCONN_PassionGiver</defName>
+							<thingDef>CONN_PassionGiver</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -46,8 +46,8 @@
 							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialANN_TraitGiver</defName>
-							<thingDef>ANN_TraitGiver</thingDef>
+							<defName>VCEF_SpecialCONN_TraitGiver</defName>
+							<thingDef>CONN_TraitGiver</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -82,8 +82,8 @@
 							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialANN_Reconditioner</defName>
-							<thingDef>ANN_Reconditioner</thingDef>
+							<defName>VCEF_SpecialCONN_Reconditioner</defName>
+							<thingDef>CONN_Reconditioner</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -100,8 +100,8 @@
 							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialANN_Zoom</defName>
-							<thingDef>ANN_Zoom</thingDef>
+							<defName>VCEF_SpecialCONN_Zoom</defName>
+							<thingDef>CONN_Zoom</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -118,8 +118,8 @@
 							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialANN_EnergyFist</defName>
-							<thingDef>ANN_EnergyFist</thingDef>
+							<defName>VCEF_SpecialCONN_EnergyFist</defName>
+							<thingDef>CONN_EnergyFist</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -136,8 +136,8 @@
 							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialANN_ElasticAchilles</defName>
-							<thingDef>ANN_ElasticAchilles</thingDef>
+							<defName>VCEF_SpecialCONN_ElasticAchilles</defName>
+							<thingDef>CONN_ElasticAchilles</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -154,8 +154,8 @@
 							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialANN_BlackPearl</defName>
-							<thingDef>ANN_BlackPearl</thingDef>
+							<defName>VCEF_SpecialCONN_BlackPearl</defName>
+							<thingDef>CONN_BlackPearl</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -172,8 +172,8 @@
 							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialANN_HoverFeet</defName>
-							<thingDef>ANN_HoverFeet</thingDef>
+							<defName>VCEF_SpecialCONN_HoverFeet</defName>
+							<thingDef>CONN_HoverFeet</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -190,8 +190,8 @@
 							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialANN_Greenthumb</defName>
-							<thingDef>ANN_Greenthumb</thingDef>
+							<defName>VCEF_SpecialCONN_Greenthumb</defName>
+							<thingDef>CONN_Greenthumb</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
