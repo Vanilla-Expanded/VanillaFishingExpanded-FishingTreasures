@@ -2,7 +2,7 @@
 <Patch>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Cybernetic Organism and Neural Network</li>
+			<li>Vanilla Apparel Expanded</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
@@ -10,8 +10,8 @@
 					<xpath>/Defs</xpath>
 					<value>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialANN_Brainwash</defName>
-							<thingDef>ANN_Brainwash</thingDef>
+							<defName>VCEF_SpecialVAE_Footwear_Boots</defName>
+							<thingDef>VAE_Footwear_Boots</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -23,13 +23,13 @@
 								<li>VCEF_BiomeAlienHot</li>
 								<li>VCEF_BiomeAlienCold</li>
 							</allowedBiomes>
-							<commonality>0.01</commonality>
+							<commonality>0.5</commonality>
 							<baseFishingYield>1</baseFishingYield>
 							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialANN_PassionGiver</defName>
-							<thingDef>ANN_PassionGiver</thingDef>
+							<defName>VCEF_SpecialVAE_Footwear_Shoes</defName>
+							<thingDef>VAE_Footwear_Shoes</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -41,13 +41,13 @@
 								<li>VCEF_BiomeAlienHot</li>
 								<li>VCEF_BiomeAlienCold</li>
 							</allowedBiomes>
-							<commonality>0.01</commonality>
+							<commonality>0.5</commonality>
 							<baseFishingYield>1</baseFishingYield>
 							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialANN_TraitGiver</defName>
-							<thingDef>ANN_TraitGiver</thingDef>
+							<defName>VCEF_SpecialVAE_Handwear_Gloves</defName>
+							<thingDef>VAE_Handwear_Gloves</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -59,13 +59,13 @@
 								<li>VCEF_BiomeAlienHot</li>
 								<li>VCEF_BiomeAlienCold</li>
 							</allowedBiomes>
-							<commonality>0.01</commonality>
+							<commonality>0.5</commonality>
 							<baseFishingYield>1</baseFishingYield>
 							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialNeurotrainersClearer</defName>
-							<thingDef>NeurotrainersClearer</thingDef>
+							<defName>VCEF_SpecialVAE_Apparel_Hoodie</defName>
+							<thingDef>VAE_Apparel_Hoodie</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -77,13 +77,13 @@
 								<li>VCEF_BiomeAlienHot</li>
 								<li>VCEF_BiomeAlienCold</li>
 							</allowedBiomes>
-							<commonality>0.01</commonality>
+							<commonality>0.1</commonality>
 							<baseFishingYield>1</baseFishingYield>
 							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialANN_Reconditioner</defName>
-							<thingDef>ANN_Reconditioner</thingDef>
+							<defName>VCEF_SpecialVAE_Apparel_Skirt</defName>
+							<thingDef>VAE_Apparel_Skirt</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -95,13 +95,13 @@
 								<li>VCEF_BiomeAlienHot</li>
 								<li>VCEF_BiomeAlienCold</li>
 							</allowedBiomes>
-							<commonality>0.01</commonality>
+							<commonality>0.1</commonality>
 							<baseFishingYield>1</baseFishingYield>
 							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialANN_Zoom</defName>
-							<thingDef>ANN_Zoom</thingDef>
+							<defName>VCEF_SpecialVAE_Apparel_Shorts</defName>
+							<thingDef>VAE_Apparel_Shorts</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -113,13 +113,13 @@
 								<li>VCEF_BiomeAlienHot</li>
 								<li>VCEF_BiomeAlienCold</li>
 							</allowedBiomes>
-							<commonality>0.01</commonality>
+							<commonality>0.1</commonality>
 							<baseFishingYield>1</baseFishingYield>
 							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialANN_EnergyFist</defName>
-							<thingDef>ANN_EnergyFist</thingDef>
+							<defName>VCEF_SpecialVAE_Apparel_Trousers</defName>
+							<thingDef>VAE_Apparel_Trousers</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -131,13 +131,13 @@
 								<li>VCEF_BiomeAlienHot</li>
 								<li>VCEF_BiomeAlienCold</li>
 							</allowedBiomes>
-							<commonality>0.01</commonality>
+							<commonality>0.1</commonality>
 							<baseFishingYield>1</baseFishingYield>
 							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialANN_ElasticAchilles</defName>
-							<thingDef>ANN_ElasticAchilles</thingDef>
+							<defName>VCEF_SpecialVAE_Headgear_Fedora</defName>
+							<thingDef>VAE_Headgear_Fedora</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -149,13 +149,13 @@
 								<li>VCEF_BiomeAlienHot</li>
 								<li>VCEF_BiomeAlienCold</li>
 							</allowedBiomes>
-							<commonality>0.01</commonality>
+							<commonality>0.1</commonality>
 							<baseFishingYield>1</baseFishingYield>
 							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialANN_BlackPearl</defName>
-							<thingDef>ANN_BlackPearl</thingDef>
+							<defName>VCEF_SpecialVAE_Apparel_FleeceShirt</defName>
+							<thingDef>VAE_Apparel_FleeceShirt</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -167,13 +167,13 @@
 								<li>VCEF_BiomeAlienHot</li>
 								<li>VCEF_BiomeAlienCold</li>
 							</allowedBiomes>
-							<commonality>0.01</commonality>
+							<commonality>0.1</commonality>
 							<baseFishingYield>1</baseFishingYield>
 							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialANN_HoverFeet</defName>
-							<thingDef>ANN_HoverFeet</thingDef>
+							<defName>VCEF_SpecialVAE_Apparel_Jeans</defName>
+							<thingDef>VAE_Apparel_Jeans</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -185,28 +185,11 @@
 								<li>VCEF_BiomeAlienHot</li>
 								<li>VCEF_BiomeAlienCold</li>
 							</allowedBiomes>
-							<commonality>0.01</commonality>
+							<commonality>0.1</commonality>
 							<baseFishingYield>1</baseFishingYield>
 							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
-						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialANN_Greenthumb</defName>
-							<thingDef>ANN_Greenthumb</thingDef>
-							<fishSizeCategory>Special</fishSizeCategory>
-							<canBeFreshwater>true</canBeFreshwater>
-							<canBeSaltwater>true</canBeSaltwater>
-							<allowedBiomes>
-								<li>Warm</li>
-								<li>Cold</li>
-								<li>Hot</li>
-								<li>VCEF_BiomeAlienJungly</li>
-								<li>VCEF_BiomeAlienHot</li>
-								<li>VCEF_BiomeAlienCold</li>
-							</allowedBiomes>
-							<commonality>0.01</commonality>
-							<baseFishingYield>1</baseFishingYield>
-							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
-						</VCE_Fishing.FishDef>
+						
 					</value>
 				</li>
 			</operations>
