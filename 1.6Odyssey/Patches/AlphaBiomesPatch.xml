@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Alpha Biomes</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingSetMakerDef[@Name="RareFishingCatchesBase"]/root/options</xpath>
+					<value>
+						<li>
+							<weight>0.1</weight>
+							<thingSetMaker Class="ThingSetMaker_StackCount">
+								<fixedParams>
+									<filter>
+										<thingDefs>
+											<li>AB_AlcyoniteChunk</li>
+											<li>AB_CrystalWood</li>
+											<li>AB_MushroomWoodLog</li>
+											<li>AB_Shell_Tar</li>
+										</thingDefs>
+									</filter>
+									<countRange>10~20</countRange>
+								</fixedParams>
+							</thingSetMaker>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

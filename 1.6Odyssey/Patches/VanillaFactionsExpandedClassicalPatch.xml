@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Factions Expanded - Classical</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingSetMakerDef[@Name="RareFishingCatchesBase"]/root/options</xpath>
+					<value>
+						<li>
+							<weight>0.1</weight>
+							<thingSetMaker Class="ThingSetMaker_StackCount">
+								<fixedParams>
+									<filter>
+										<thingDefs>
+											<li>VFEC_Jerky</li>
+											<li>VFEC_Bronze</li>
+											<li>VFEC_BlocksConcrete</li>
+										</thingDefs>
+									</filter>
+									<countRange>20~50</countRange>
+								</fixedParams>
+							</thingSetMaker>
+						</li>
+						<li>
+							<weight>0.05</weight>
+							<thingSetMaker Class="ThingSetMaker_StackCount">
+								<fixedParams>
+									<filter>
+										<thingDefs>
+											<li>VFEC_Tyrian</li>
+										</thingDefs>
+									</filter>
+									<countRange>10~20</countRange>
+								</fixedParams>
+							</thingSetMaker>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

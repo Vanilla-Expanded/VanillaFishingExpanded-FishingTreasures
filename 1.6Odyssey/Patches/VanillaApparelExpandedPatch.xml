@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Apparel Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingSetMakerDef[@Name="RareFishingCatchesBase"]/root/options</xpath>
+					<value>
+						<li>
+							<weight>0.5</weight>
+							<thingSetMaker Class="ThingSetMaker_Count">
+								<fixedParams>
+									<qualityGenerator>Reward</qualityGenerator>
+									<filter>
+										<thingDefs>
+											<li>VAE_Footwear_Boots</li>
+											<li>VAE_Footwear_Shoes</li>
+											<li>VAE_Handwear_Gloves</li>
+											<li>VAE_Apparel_Hoodie</li>
+											<li>VAE_Apparel_Skirt</li>
+											<li>VAE_Apparel_Shorts</li>
+											<li>VAE_Apparel_Trousers</li>
+											<li>VAE_Headgear_Fedora</li>
+											<li>VAE_Apparel_FleeceShirt</li>
+											<li>VAE_Apparel_Jeans</li>
+										</thingDefs>
+									</filter>
+								</fixedParams>
+							</thingSetMaker>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

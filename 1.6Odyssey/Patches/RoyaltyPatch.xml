@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingSetMakerDef[@Name="RareFishingCatchesBase"]/root/options</xpath>
+					<value>
+						<li>
+							<weight>0.5</weight>
+							<thingSetMaker Class="ThingSetMaker_Count">
+								<fixedParams>
+									<qualityGenerator>Reward</qualityGenerator>
+									<filter>
+										<thingDefs>
+											<li>Apparel_PsyfocusHelmet</li>
+											<li>Apparel_EltexSkullcap</li>
+											<li>Apparel_Coronet</li>
+											<li>Apparel_Crown</li>
+											<li>Apparel_Beret</li>
+											<li>Apparel_Gunlink</li>
+										</thingDefs>
+									</filter>
+								</fixedParams>
+							</thingSetMaker>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

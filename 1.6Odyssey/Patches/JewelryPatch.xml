@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Jewelry</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingSetMakerDef[@Name="RareFishingCatchesBase"]/root/options</xpath>
+					<value>
+						<li>
+							<weight>0.1</weight>
+							<thingSetMaker Class="ThingSetMaker_StackCount">
+								<fixedParams>
+									<filter>
+										<thingDefs>
+											<li>Diamond</li>
+											<li>Ruby</li>
+											<li>Sapphire</li>
+										</thingDefs>
+									</filter>
+									<countRange>10~20</countRange>
+								</fixedParams>
+							</thingSetMaker>
+						</li>
+						<li>
+							<weight>1</weight>
+							<thingSetMaker Class="ThingSetMaker_Count">
+								<fixedParams>
+									<qualityGenerator>Reward</qualityGenerator>
+									<filter>
+										<categories>
+											<li>K_Jewelry</li>
+										</categories>
+									</filter>
+								</fixedParams>
+							</thingSetMaker>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Alpha Mechs</li>
+		</mods>
+		<match Class="PatchOperationFindMod">
+			<mods>
+				<li>Biotech</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/ThingSetMakerDef[@Name="RareFishingCatchesBase"]/root/options</xpath>
+						<value>
+							<li>
+								<weight>0.05</weight>
+								<thingSetMaker Class="ThingSetMaker_Count">
+									<fixedParams>
+										<filter>
+											<thingDefs>
+												<li>AM_HyperLinkageChip</li>
+											</thingDefs>
+										</filter>
+									</fixedParams>
+								</thingSetMaker>
+							</li>
+							<li>
+								<weight>0.025</weight>
+								<thingSetMaker Class="ThingSetMaker_Count">
+									<fixedParams>
+										<filter>
+											<thingDefs>
+												<li>AM_StellarProcessingChip</li>
+											</thingDefs>
+										</filter>
+									</fixedParams>
+								</thingSetMaker>
+							</li>
+							<li>
+								<weight>0.01</weight>
+								<thingSetMaker Class="ThingSetMaker_Count">
+									<fixedParams>
+										<filter>
+											<thingDefs>
+												<li>AM_QuantumMatrixChip</li>
+											</thingDefs>
+										</filter>
+									</fixedParams>
+								</thingSetMaker>
+							</li>
+						</value>
+					</li>
+				</operations>
+			</match>
+		</match>
+	</Operation>
+</Patch>
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Brewing Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingSetMakerDef[@Name="RareFishingCatchesBase"]/root/options</xpath>
+					<value>
+						<li>
+							<weight>0.1</weight>
+							<thingSetMaker Class="ThingSetMaker_Count">
+								<fixedParams>
+									<qualityGenerator>Reward</qualityGenerator>
+									<filter>
+										<thingDefs>
+											<li>VBE_Ambrandy</li>
+										</thingDefs>
+									</filter>
+								</fixedParams>
+							</thingSetMaker>
+						</li>
+						<li>
+							<weight>0.1</weight>
+							<thingSetMaker Class="ThingSetMaker_StackCount">
+								<fixedParams>
+									<filter>
+										<thingDefs>
+											<li>VBE_Gin</li>
+											<li>VBE_Tequila</li>
+											<li>VBE_Vodka</li>
+											<li>VBE_Whiskey</li>
+											<li>VBE_EnergyDrink</li>
+											<li>VBE_Soda</li>
+										</thingDefs>
+									</filter>
+									<countRange>2~4</countRange>
+								</fixedParams>
+							</thingSetMaker>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

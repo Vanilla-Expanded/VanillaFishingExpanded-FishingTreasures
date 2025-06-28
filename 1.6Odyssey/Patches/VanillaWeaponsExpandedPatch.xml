@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingSetMakerDef[@Name="RareFishingCatchesBase"]/root/options</xpath>
+					<value>
+						<li>
+							<weight>0.5</weight>
+							<thingSetMaker Class="ThingSetMaker_Count">
+								<fixedParams>
+									<qualityGenerator>Reward</qualityGenerator>
+									<filter>
+										<thingDefs>
+											<li>VWE_Gun_Flintlock</li>
+											<li>VWE_Gun_HandCannon</li>
+											<li>VWE_Gun_SemiAutomaticRifle</li>
+											<li>VWE_Gun_LightSMG</li>
+											<li>VWE_Gun_SMG</li>
+											<li>VWE_Gun_BattleRifle</li>
+											<li>VWE_Gun_ChargePistol</li>
+											<li>VWE_Gun_ChargeSMG</li>
+										</thingDefs>
+									</filter>
+								</fixedParams>
+							</thingSetMaker>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Alpha Genes</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingSetMakerDef[@Name="RareFishingCatchesBase"]/root/options</xpath>
+					<value>
+						<li>
+							<weight>0.5</weight>
+							<thingSetMaker Class="ThingSetMaker_StackCount">
+								<fixedParams>
+									<filter>
+										<thingDefs>
+											<li>AG_Ultima</li>
+										</thingDefs>
+									</filter>
+									<countRange>10~20</countRange>
+								</fixedParams>
+							</thingSetMaker>
+						</li>
+						<li>
+							<weight>0.1</weight>
+							<thingSetMaker Class="ThingSetMaker_Count">
+								<fixedParams>
+									<filter>
+										<thingDefs>
+											<li>AG_Alphapack</li>
+											<li>AG_Mixedpack</li>
+											<li>AG_GeneRemover</li>
+											<li>AG_Endogenefier</li>
+											<li>AG_Xenogenefier</li>
+											<li>AG_XenotypeNullifier</li>
+											<li>AG_XenotypeInjector</li>
+											<li>AG_GermlineMutator</li>
+											<li>AG_GenepackTweaker</li>
+											<li>AG_GenepackDisruptor</li>
+										</thingDefs>
+									</filter>
+								</fixedParams>
+							</thingSetMaker>
+						</li>
+						<li>
+							<weight>0.05</weight>
+							<thingSetMaker Class="ThingSetMaker_Count">
+								<fixedParams>
+									<filter>
+										<thingDefs>
+											<li>AG_ArchoGeneRemover</li>
+											<li>AG_ArchoEndogenefier</li>
+											<li>AG_ArchoXenogenefier</li>
+										</thingDefs>
+									</filter>
+								</fixedParams>
+							</thingSetMaker>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

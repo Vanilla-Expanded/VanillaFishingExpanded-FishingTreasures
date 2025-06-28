@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Alpha Books</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingSetMakerDef[@Name="RareFishingCatchesBase"]/root/options</xpath>
+					<value>
+						<li>
+							<weight>0.1</weight>
+							<thingSetMaker Class="ThingSetMaker_Count">
+								<fixedParams>
+									<qualityGenerator>Reward</qualityGenerator>
+									<filter>
+										<thingDefs>
+											<li>ABooks_AdventuringLogs</li>
+											<li>ABooks_ArmyManual</li>
+											<li>ABooks_BookOfPortents</li>
+											<li>ABooks_BotanicalCompendium</li>
+											<li>ABooks_TheChickenBook</li>
+											<li>ABooks_DurathreadTechniques</li>
+											<li>ABooks_InstructionManual</li>
+											<li>ABooks_MedicalJournal</li>
+											<li>ABooks_MidasTome</li>
+											<li>ABooks_OfficeBinder</li>
+											<li>ABooks_PoliticalPamphlet</li>
+											<li>ABooks_PsychologyBook</li>
+											<li>ABooks_RestaurantGuide</li>
+											<li>ABooks_SelfHelpBook</li>
+											<li>ABooks_SurvivalGuide</li>
+											<li>ABooks_TomeOfFire</li>
+											<li>ABooks_TrainingManual</li>
+											<li>ABooks_TreatiseOfStainlessSteel</li>
+											<li>ABooks_ZoologicalCompendium</li>
+										</thingDefs>
+									</filter>
+								</fixedParams>
+							</thingSetMaker>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

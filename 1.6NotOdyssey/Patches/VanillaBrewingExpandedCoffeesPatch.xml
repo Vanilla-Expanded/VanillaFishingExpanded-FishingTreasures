@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Brewing Expanded - Coffees and Teas</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs</xpath>
+					<value>
+
+					
+						<VCE_Fishing.FishDef>
+							<defName>VCEF_VBE_BlackTea</defName>
+							<thingDef>VBE_BlackTea</thingDef>    
+							<fishSizeCategory>Special</fishSizeCategory>
+							<canBeFreshwater>true</canBeFreshwater>
+							<canBeSaltwater>true</canBeSaltwater>
+							<allowedBiomes>
+								<li>Warm</li>
+								<li>Cold</li>
+								<li>Hot</li>
+								<li>VCEF_BiomeAlienJungly</li>	
+								<li>VCEF_BiomeAlienHot</li>	
+								<li>VCEF_BiomeAlienCold</li>						
+							</allowedBiomes>  	
+							<commonality>0.1</commonality>		
+							<baseFishingYield>3</baseFishingYield>		
+						</VCE_Fishing.FishDef>	
+						<VCE_Fishing.FishDef>
+							<defName>VCEF_VBE_IrishCoffee</defName>
+							<thingDef>VBE_IrishCoffee</thingDef>    
+							<fishSizeCategory>Special</fishSizeCategory>
+							<canBeFreshwater>true</canBeFreshwater>
+							<canBeSaltwater>true</canBeSaltwater>
+							<allowedBiomes>
+								<li>Warm</li>
+								<li>Cold</li>
+								<li>Hot</li>
+								<li>VCEF_BiomeAlienJungly</li>	
+								<li>VCEF_BiomeAlienHot</li>	
+								<li>VCEF_BiomeAlienCold</li>						
+							</allowedBiomes>  	
+							<commonality>0.1</commonality>		
+							<baseFishingYield>3</baseFishingYield>		
+						</VCE_Fishing.FishDef>	
+						<VCE_Fishing.FishDef>
+							<defName>VCEF_VBE_Kombucha</defName>
+							<thingDef>VBE_Kombucha</thingDef>    
+							<fishSizeCategory>Special</fishSizeCategory>
+							<canBeFreshwater>true</canBeFreshwater>
+							<canBeSaltwater>true</canBeSaltwater>
+							<allowedBiomes>
+								<li>Warm</li>
+								<li>Cold</li>
+								<li>Hot</li>
+								<li>VCEF_BiomeAlienJungly</li>	
+								<li>VCEF_BiomeAlienHot</li>	
+								<li>VCEF_BiomeAlienCold</li>						
+							</allowedBiomes>  	
+							<commonality>0.1</commonality>		
+							<baseFishingYield>3</baseFishingYield>		
+						</VCE_Fishing.FishDef>	
+						<VCE_Fishing.FishDef>
+							<defName>VCEF_VBE_LatteCoffee</defName>
+							<thingDef>VBE_LatteCoffee</thingDef>    
+							<fishSizeCategory>Special</fishSizeCategory>
+							<canBeFreshwater>true</canBeFreshwater>
+							<canBeSaltwater>true</canBeSaltwater>
+							<allowedBiomes>
+								<li>Warm</li>
+								<li>Cold</li>
+								<li>Hot</li>
+								<li>VCEF_BiomeAlienJungly</li>	
+								<li>VCEF_BiomeAlienHot</li>	
+								<li>VCEF_BiomeAlienCold</li>						
+							</allowedBiomes>  	
+							<commonality>0.1</commonality>		
+							<baseFishingYield>3</baseFishingYield>		
+						</VCE_Fishing.FishDef>	
+						<VCE_Fishing.FishDef>
+							<defName>VCEF_VBE_MochaCoffee</defName>
+							<thingDef>VBE_MochaCoffee</thingDef>    
+							<fishSizeCategory>Special</fishSizeCategory>
+							<canBeFreshwater>true</canBeFreshwater>
+							<canBeSaltwater>true</canBeSaltwater>
+							<allowedBiomes>
+								<li>Warm</li>
+								<li>Cold</li>
+								<li>Hot</li>
+								<li>VCEF_BiomeAlienJungly</li>	
+								<li>VCEF_BiomeAlienHot</li>	
+								<li>VCEF_BiomeAlienCold</li>						
+							</allowedBiomes>  	
+							<commonality>0.1</commonality>		
+							<baseFishingYield>3</baseFishingYield>		
+						</VCE_Fishing.FishDef>	
+						<VCE_Fishing.FishDef>
+							<defName>VCEF_VBE_PumpkinCoffee</defName>
+							<thingDef>VBE_PumpkinCoffee</thingDef>    
+							<fishSizeCategory>Special</fishSizeCategory>
+							<canBeFreshwater>true</canBeFreshwater>
+							<canBeSaltwater>true</canBeSaltwater>
+							<allowedBiomes>
+								<li>Warm</li>
+								<li>Cold</li>
+								<li>Hot</li>
+								<li>VCEF_BiomeAlienJungly</li>	
+								<li>VCEF_BiomeAlienHot</li>	
+								<li>VCEF_BiomeAlienCold</li>						
+							</allowedBiomes>  	
+							<commonality>0.1</commonality>		
+							<baseFishingYield>3</baseFishingYield>		
+						</VCE_Fishing.FishDef>	
+						<VCE_Fishing.FishDef>
+							<defName>VCEF_VBE_Yuenyeung</defName>
+							<thingDef>VBE_Yuenyeung</thingDef>    
+							<fishSizeCategory>Special</fishSizeCategory>
+							<canBeFreshwater>true</canBeFreshwater>
+							<canBeSaltwater>true</canBeSaltwater>
+							<allowedBiomes>
+								<li>Warm</li>
+								<li>Cold</li>
+								<li>Hot</li>
+								<li>VCEF_BiomeAlienJungly</li>	
+								<li>VCEF_BiomeAlienHot</li>	
+								<li>VCEF_BiomeAlienCold</li>						
+							</allowedBiomes>  	
+							<commonality>0.1</commonality>		
+							<baseFishingYield>3</baseFishingYield>		
+						</VCE_Fishing.FishDef>	
+						
+
+
+
+
+					</value>
+				</li>
+
+
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+

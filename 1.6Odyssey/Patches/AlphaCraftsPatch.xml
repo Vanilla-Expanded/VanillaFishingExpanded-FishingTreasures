@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Alpha Crafts</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingSetMakerDef[@Name="RareFishingCatchesBase"]/root/options</xpath>
+					<value>
+						<li>
+							<weight>0.1</weight>
+							<thingSetMaker Class="ThingSetMaker_StackCount">
+								<fixedParams>
+									<filter>
+										<thingDefs>
+											<li>AC_Sake</li>
+										</thingDefs>
+									</filter>
+									<countRange>2~4</countRange>
+								</fixedParams>
+							</thingSetMaker>
+						</li>
+						<li>
+							<weight>0.1</weight>
+							<thingSetMaker Class="ThingSetMaker_StackCount">
+								<fixedParams>
+									<filter>
+										<thingDefs>
+											<li>AC_Butter</li>
+											<li>AC_Flour</li>
+											<li>AC_Mayonnaise</li>
+											<li>AC_CornSyrup</li>
+											<li>AC_Kefir</li>
+											<li>AC_Oil</li>
+											<li>AC_Perfume</li>
+											<li>AC_Pickles</li>
+											<li>AC_Soap</li>
+											<li>AC_Vinegar</li>
+										</thingDefs>
+									</filter>
+									<countRange>5~15</countRange>
+								</fixedParams>
+							</thingSetMaker>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

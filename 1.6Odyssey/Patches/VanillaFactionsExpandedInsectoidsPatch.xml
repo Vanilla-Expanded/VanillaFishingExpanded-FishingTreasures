@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Factions Expanded - Insectoids 2</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingSetMakerDef[@Name="RareFishingCatchesBase"]/root/options</xpath>
+					<value>
+						<li>
+							<weight>0.1</weight>
+							<thingSetMaker Class="ThingSetMaker_StackCount">
+								<fixedParams>
+									<filter>
+										<thingDefs>
+											<li>VFEI2_RoyalInsectJelly</li>
+											<li>VFEI2_Chitin</li>
+										</thingDefs>
+									</filter>
+									<countRange>15~25</countRange>
+								</fixedParams>
+							</thingSetMaker>
+						</li>
+						<li>
+							<weight>0.1</weight>
+							<thingSetMaker Class="ThingSetMaker_Count">
+								<fixedParams>
+									<filter>
+										<thingDefs>
+											<li>VFEI2_PherocoreSorne</li>
+											<li>VFEI2_PherocoreNuchadus</li>
+											<li>VFEI2_PherocoreChelis</li>
+											<li>VFEI2_PherocoreKemian</li>
+											<li>VFEI2_PherocoreXanides</li>
+										</thingDefs>
+									</filter>
+								</fixedParams>
+							</thingSetMaker>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+
