@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Factions Expanded - Deserters</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingSetMakerDef[@Name="RareFishingCatchesBase"]/root/options</xpath>
+					<value>
+						<li>
+							<weight>0.05</weight>
+							<thingSetMaker Class="ThingSetMaker_Count">
+								<fixedParams>
+									
+									<filter>
+										<thingDefs>
+											<li>VFED_Biodecoder</li>
+											<li>VFED_PsychicAmplifier</li>
+											<li>VFED_DeserterDeclassifier</li>
+										</thingDefs>
+									</filter>
+								</fixedParams>
+							</thingSetMaker>
+						</li>
+					
+					
+						<li>
+							<weight>0.1</weight>
+							<thingSetMaker Class="ThingSetMaker_StackCount">
+								<fixedParams>
+									<filter>
+										<thingDefs>
+											<li>VFED_Intel</li>
+											
+										</thingDefs>
+									</filter>
+									<countRange>2~5</countRange>
+								</fixedParams>
+							</thingSetMaker>
+						</li>
+						<li>
+							<weight>0.1</weight>
+							<thingSetMaker Class="ThingSetMaker_Count">
+								<fixedParams>
+									
+									<filter>
+										<thingDefs>
+											<li>VFED_Apparel_BombPack</li>
+											<li>VFED_Apparel_InvisibilityEngulfer</li>
+										
+										</thingDefs>
+									</filter>
+								</fixedParams>
+							</thingSetMaker>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

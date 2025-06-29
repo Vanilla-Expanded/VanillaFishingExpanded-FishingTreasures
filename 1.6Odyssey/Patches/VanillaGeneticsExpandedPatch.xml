@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Genetics Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingSetMakerDef[@Name="RareFishingCatchesBase"]/root/options</xpath>
+					<value>
+						<li>
+							<weight>0.5</weight>
+							<thingSetMaker Class="ThingSetMaker_Count">
+								<fixedParams>
+									<filter>
+										<thingDefs>
+											<li>GR_UrsineGenetic</li>
+											<li>GR_AvianGenetic</li>
+											<li>GR_BoomalopeGenetic</li>
+											<li>GR_MuffaloGenetic</li>
+											<li>GR_CanineGenetic</li>
+											<li>GR_RodentGenetic</li>
+											<li>GR_FelineGenetic</li>
+											<li>GR_HumanoidGenetic</li>
+										</thingDefs>
+									</filter>
+								</fixedParams>
+							</thingSetMaker>
+						</li>
+						<li>
+							<weight>0.1</weight>
+							<thingSetMaker Class="ThingSetMaker_Count">
+								<fixedParams>
+									<filter>
+										<thingDefs>
+											<li>GR_EquineGenetic</li>
+											<li>GR_InsectoidGenetic</li>
+											<li>GR_ReptileGenetic</li>
+										</thingDefs>
+									</filter>
+								</fixedParams>
+							</thingSetMaker>
+						</li>
+						<li>
+							<weight>0.05</weight>
+							<thingSetMaker Class="ThingSetMaker_Count">
+								<fixedParams>
+									<filter>
+										<thingDefs>
+											<li>GR_EquineGenetic</li>
+											<li>GR_InsectoidGenetic</li>
+											<li>GR_ReptileGenetic</li>
+										</thingDefs>
+									</filter>
+								</fixedParams>
+							</thingSetMaker>
+						</li>
+						<li>
+							<weight>0.1</weight>
+							<thingSetMaker Class="ThingSetMaker_Count">
+								<fixedParams>
+									<filter>
+										<thingDefs>
+											<li>GR_BoosterImmuno</li>
+											<li>GR_BoosterHarmono</li>
+											<li>GR_BoosterTempo</li>
+											<li>GR_BoosterFertility</li>
+											<li>GR_BoosterStabilizator</li>
+											<li>GR_BoosterController</li>
+											<li>GR_GenomeExcavator</li>
+										</thingDefs>
+									</filter>
+								</fixedParams>
+							</thingSetMaker>
+						</li>
+						<li>
+							<weight>0.05</weight>
+							<thingSetMaker Class="ThingSetMaker_Count">
+								<fixedParams>
+									<filter>
+										<thingDefs>
+											<li>GR_StabilizedFertilityUnblocker</li>
+											<li>GR_ImprovedController</li>
+											<li>GR_BoosterImmunoGreater</li>
+											<li>GR_BoosterHarmonoGreater</li>
+										</thingDefs>
+									</filter>
+								</fixedParams>
+							</thingSetMaker>
+						</li>
+						<li>
+							<weight>0.01</weight>
+							<thingSetMaker Class="ThingSetMaker_Count">
+								<fixedParams>
+									<filter>
+										<thingDefs>
+											<li>GR_MechaniteBooster</li>
+											<li>GR_ThrumboGenetic</li>
+											<li>GR_GenoframeMasterwork</li>
+											<li>GR_GenoframeLegendary</li>
+											<li>GR_ArchotechGenomeExcavator</li>
+										</thingDefs>
+									</filter>
+								</fixedParams>
+							</thingSetMaker>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

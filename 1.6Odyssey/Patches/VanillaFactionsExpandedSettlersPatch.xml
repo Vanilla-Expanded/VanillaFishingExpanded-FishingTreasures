@@ -22,6 +22,36 @@
 								</fixedParams>
 							</thingSetMaker>
 						</li>
+						<li>
+							<weight>0.1</weight>
+							<thingSetMaker Class="ThingSetMaker_Count">
+								<fixedParams>
+									<qualityGenerator>Reward</qualityGenerator>
+									<filter>
+										<thingDefs>
+											<li>VFES_Headgear_Bandana</li>
+											<li>VFES_Headgear_Sombrero</li>
+											<li>VFES_Headgear_FlatCap</li>
+											
+										</thingDefs>
+									</filter>
+								</fixedParams>
+							</thingSetMaker>
+						</li>
+						<li>
+							<weight>0.1</weight>
+							<thingSetMaker Class="ThingSetMaker_Count">
+								<fixedParams>
+									
+									<filter>
+										<thingDefs>
+											<li>VFES_Weapon_GrenadeDynamite</li>
+											
+										</thingDefs>
+									</filter>
+								</fixedParams>
+							</thingSetMaker>
+						</li>
 					</value>
 				</li>
 			</operations>

@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-
-
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Vanilla Factions Expanded - Settlers</li>
 		</mods>
-
 		<match Class="PatchOperationSequence">
 			<operations>
-
-
-				<li Class="PatchOperationAdd"> 
+				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
-
 						<VCE_Fishing.FishDef>
 							<defName>VCEF_SpecialChemshine</defName>
-							<thingDef>Chemshine</thingDef>    
+							<thingDef>Chemshine</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -25,28 +19,89 @@
 								<li>Warm</li>
 								<li>Cold</li>
 								<li>Hot</li>
-								<li>VCEF_BiomeAlienJungly</li>	
-								<li>VCEF_BiomeAlienHot</li>	
-								<li>VCEF_BiomeAlienCold</li>						
-							</allowedBiomes>  	
-							<commonality>0.2</commonality>		
-							<baseFishingYield>3</baseFishingYield>		
-						</VCE_Fishing.FishDef>	
-						
-						
-						
-
-
-
-
+								<li>VCEF_BiomeAlienJungly</li>
+								<li>VCEF_BiomeAlienHot</li>
+								<li>VCEF_BiomeAlienCold</li>
+							</allowedBiomes>
+							<commonality>0.2</commonality>
+							<baseFishingYield>3</baseFishingYield>
+						</VCE_Fishing.FishDef>
+						<VCE_Fishing.FishDef>
+							<defName>VCEF_VFES_Headgear_Bandana</defName>
+							<thingDef>VFES_Headgear_Bandana</thingDef>
+							<fishSizeCategory>Special</fishSizeCategory>
+							<canBeFreshwater>true</canBeFreshwater>
+							<canBeSaltwater>true</canBeSaltwater>
+							<allowedBiomes>
+								<li>Warm</li>
+								<li>Cold</li>
+								<li>Hot</li>
+								<li>VCEF_BiomeAlienJungly</li>
+								<li>VCEF_BiomeAlienHot</li>
+								<li>VCEF_BiomeAlienCold</li>
+							</allowedBiomes>
+							<commonality>0.5</commonality>
+							<baseFishingYield>1</baseFishingYield>
+							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
+						</VCE_Fishing.FishDef>
+						<VCE_Fishing.FishDef>
+							<defName>VCEF_VFES_Headgear_Sombrero</defName>
+							<thingDef>VFES_Headgear_Sombrero</thingDef>
+							<fishSizeCategory>Special</fishSizeCategory>
+							<canBeFreshwater>true</canBeFreshwater>
+							<canBeSaltwater>true</canBeSaltwater>
+							<allowedBiomes>
+								<li>Warm</li>
+								<li>Cold</li>
+								<li>Hot</li>
+								<li>VCEF_BiomeAlienJungly</li>
+								<li>VCEF_BiomeAlienHot</li>
+								<li>VCEF_BiomeAlienCold</li>
+							</allowedBiomes>
+							<commonality>0.5</commonality>
+							<baseFishingYield>1</baseFishingYield>
+							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
+						</VCE_Fishing.FishDef>
+						<VCE_Fishing.FishDef>
+							<defName>VCEF_VFES_Headgear_FlatCap</defName>
+							<thingDef>VFES_Headgear_FlatCap</thingDef>
+							<fishSizeCategory>Special</fishSizeCategory>
+							<canBeFreshwater>true</canBeFreshwater>
+							<canBeSaltwater>true</canBeSaltwater>
+							<allowedBiomes>
+								<li>Warm</li>
+								<li>Cold</li>
+								<li>Hot</li>
+								<li>VCEF_BiomeAlienJungly</li>
+								<li>VCEF_BiomeAlienHot</li>
+								<li>VCEF_BiomeAlienCold</li>
+							</allowedBiomes>
+							<commonality>0.5</commonality>
+							<baseFishingYield>1</baseFishingYield>
+							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
+						</VCE_Fishing.FishDef>
+						<VCE_Fishing.FishDef>
+							<defName>VCEF_VFES_Weapon_GrenadeDynamite</defName>
+							<thingDef>VFES_Weapon_GrenadeDynamite</thingDef>
+							<fishSizeCategory>Special</fishSizeCategory>
+							<canBeFreshwater>true</canBeFreshwater>
+							<canBeSaltwater>true</canBeSaltwater>
+							<allowedBiomes>
+								<li>Warm</li>
+								<li>Cold</li>
+								<li>Hot</li>
+								<li>VCEF_BiomeAlienJungly</li>
+								<li>VCEF_BiomeAlienHot</li>
+								<li>VCEF_BiomeAlienCold</li>
+							</allowedBiomes>
+							<commonality>0.5</commonality>
+							<baseFishingYield>1</baseFishingYield>
+							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
+						</VCE_Fishing.FishDef>
 					</value>
 				</li>
-
-
 			</operations>
 		</match>
 	</Operation>
-
-
 </Patch>
 
