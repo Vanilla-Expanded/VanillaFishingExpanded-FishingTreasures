@@ -31,8 +31,7 @@
 											<li>VCE_ChocolateSyrup</li>
 											<li>VCE_InsectJellyPreserves</li>
 											<li>VCE_Mayo</li>
-											<li>VBE_EnergyDrink</li>
-											<li>VBE_Soda</li>
+											
 										</thingDefs>
 									</filter>
 									<countRange>15~25</countRange>
