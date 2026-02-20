@@ -16,7 +16,7 @@
 									<qualityGenerator>Reward</qualityGenerator>
 									<filter>
 										<thingDefs>
-											<li>VWE_Gun_Flintlock</li>
+											
 											<li>VWE_Gun_HandCannon</li>
 											<li>VWE_Gun_SemiAutomaticRifle</li>
 											<li>VWE_Gun_LightSMG</li>
